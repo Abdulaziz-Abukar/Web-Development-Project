@@ -1,0 +1,43 @@
+.images {
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.images img {
+    float: left;
+    width: 49%;
+    margin-right: 1%;
+}
+
+.images img:last-child {
+    margin-right: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    background: white;
+    color: #124E66;
+    border: 1px solid #2E3944;
+}
+
+table th, table td {
+    border: 1px solid #2E3944;
+    padding: 0.5em;
+    text-align: left;
+}
+
+table th {
+    background-color: #2E3944;
+    color: white;
+}
+
+
